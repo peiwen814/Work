@@ -114,12 +114,14 @@ body{
 	margin-bottom: 32px;	
 }
 
-.bg-ph p{
+.name-p{
 	font-size: 24px;
+	line-height: 32px;
 	font-weight: 500;	
 }
 
 .txt-p{
+	font-size: 24px;
 	line-height: 36px;
 	margin-bottom: 40px;
 }
@@ -155,24 +157,36 @@ body{
 
 .li-name{
 	font-size: 24px;
+	line-height: 32px;
 }
 
 .li-year{
 	font-size: 24px;
+	line-height: 32px;
 	margin-top: 4px;
 }
 .li-schol{
 	font-size: 24px;
 	line-height: 36px;
 	margin-top: 8px;
-	padding-bottom: 24px;
+	margin-bottom: 24px;
+}
+hr{
 	border-bottom: 1px solid #000;
-	margin-bottom: 28px;
+	margin: 0 0 28px 0;
 }
 
 .li-XXXD{
 	font-size: 24px;
-	line-height: 42px;
+	line-height: 32px;
+}
+.li-br{
+	display: inline-block;
+	width:22px;
+	height:22px;
+	border-radius:100%;
+	background-color:#891818;
+	margin-right: 16px;
 }
 
 .container-XXXD{
@@ -189,11 +203,11 @@ body{
 
 .txt-XXXD{
 	font-size: 24px;
-	line-height: 42px;
+	line-height: 32px;
 	margin-bottom: 32px;
 }
 
-.txt-p{
+.txt-2020{
 	font-size: 20px;
 	line-height: 30px;
 	margin-bottom: 68px;
@@ -223,7 +237,7 @@ body{
 
 .container-jcsb li p{
 	font-size: 20px;
-	line-height: 42px;
+	line-height: 28px;
 	margin-top: 16px;
 }
 
@@ -240,6 +254,6 @@ body{
 
 .container-contact p{
 	font-size: 24px;
-	line-height: 36px;
+	line-height: 33px;
 	margin-top: 16px;
 }
