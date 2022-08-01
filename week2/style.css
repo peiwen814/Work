@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+    vertical-align: middle;
+}
+
+body{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mb-28{
+	margin-bottom: 28px;
+}
+
+.mb-48{
+	margin-bottom: 48px;
+}
+
+.mb-56{
+	margin-bottom: 56px;
+}
+
+.mb-64{
+	margin-bottom: 64px;
+}
+
+.mb-144{
+	margin-bottom: 144px;
+}
+
+.mb-160{
+	margin-bottom: 160px;
+}
+
+.ml-24{
+	margin-left: 24px;
+}
+
+
+.bg-ph{
+	background-image:url("img/banner.png") ;
+	background-size: auto;
+	height: 958px;
+	color: #FFFFFF;
+	
+}
+
+.bg-b{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.container-dcc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-jcsb{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bg-ph h1{
+	font-size: 80px;
+	line-height: 106px;
+	font-weight: 700;
+	margin-bottom: 32px;	
+}
+
+.bg-ph p{
+	font-size: 24px;
+	font-weight: 500;	
+}
+
+.txt-p{
+	line-height: 36px;
+	margin-bottom: 40px;
+}
+
+.container-icon{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.container-icon img{
+	width: 60px;
+}
+
+.container-icon img:hover{
+	opacity: 0.5;
+}
+
+.container-about{
+	text-align: center;
+	font-weight: 500;
+	margin-top: 56px;
+}
+
+.container-about h2{
+	font-size: 64px;
+	line-height: 84px;
+	margin-bottom: 40px;
+}
+
+.container-about img{
+	margin-bottom: 20px;
+}
+
+.li-name{
+	font-size: 24px;
+}
+
+.li-year{
+	font-size: 24px;
+	margin-top: 4px;
+}
+.li-schol{
+	font-size: 24px;
+	line-height: 36px;
+	margin-top: 8px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 28px;
+}
+
+.li-XXXD{
+	font-size: 24px;
+	line-height: 42px;
+}
+
+.container-XXXD{
+	text-align: center;
+	font-weight: 500;
+	margin-top: 56px;
+}
+
+.container-XXXD h2{
+	font-size: 64px;
+	line-height: 84px;
+	margin-bottom: 12px;
+}
+
+.txt-XXXD{
+	font-size: 24px;
+	line-height: 42px;
+	margin-bottom: 32px;
+}
+
+.txt-p{
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 68px;
+}
+
+.XXXD-im1{
+	margin-bottom: 40px;
+}
+
+.container-works{
+	text-align: center;
+	font-weight: 500;
+	margin-top: 56px;
+}
+
+.container-works h2{
+	font-size: 64px;
+	line-height: 84px;
+	margin-bottom: 16px;
+}
+
+.txt-2016{
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 56px;
+}
+
+.container-jcsb li p{
+	font-size: 20px;
+	line-height: 42px;
+	margin-top: 16px;
+}
+
+.container-contact{
+	text-align: center;
+	font-weight: 500;
+	margin-top: 64px;
+}
+
+.container-contact h2{
+	font-size: 64px;
+	line-height: 84px;
+}
+
+.container-contact p{
+	font-size: 24px;
+	line-height: 36px;
+	margin-top: 16px;
+}
