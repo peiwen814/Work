@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,30 +23,102 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 img {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
+body{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+	max-width: 1296px;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+
+@media(max-width: 768px){
+	.container {
+		max-width: 696px;
+	}
+}
+
+@media(max-width: 375px){
+	.container {
+		max-width: 348px;
+	}
+}
+
+.div-dcc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.div-dsb {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bg-r {
+	background-color: #AA0601;
+	color: #ffffff;
+}
+
+nav{
+	height: 80px;
+}
+
+.logo-w {
+	width: 80px;
+	height: auto;
+	padding: 16px 0;
+}
+
+.menu-li{
+	display: flex;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 0 32px;
+}
+
+nav a:hover {
+	opacity: 0.5;
+}
