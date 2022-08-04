@@ -57,6 +57,11 @@ img {
 	vertical-align: middle;
 }
 
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 body{
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -114,8 +119,6 @@ nav{
 }
 
 nav a {
-	color: #FFFFFF;
-	text-decoration: none;
 	padding: 0 32px;
 }
 
