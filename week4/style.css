@@ -97,6 +97,44 @@ body{
 	align-items: center;
 }
 
+
+a:hover {
+	opacity: 0.5;
+}
+
+.px-24{
+	padding: 0 24px;
+}
+
+.px-32{
+	padding: 0 32px;
+}
+
+.py-32{
+	padding: 32px 0;
+}
+
+.pb-8{
+	padding-bottom: 8px;
+}
+
+.pl-24{
+	padding-left: 24px;
+}
+
+.pl-32{
+	padding-left: 32px;
+}
+
+.pr-16{
+	padding-right: 16px;
+}
+
+
+.pr-24{
+	padding-right: 24px;
+}
+
 .bg-r {
 	background-color: #AA0601;
 	color: #ffffff;
@@ -118,10 +156,27 @@ nav{
 	line-height: 30px;
 }
 
-nav a {
-	padding: 0 32px;
+.footer-contact a{
+	font-size: 36px;
+	line-height: 54px;
 }
 
-nav a:hover {
-	opacity: 0.5;
+.footer-li{
+	display: flex;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.footer-icon img{
+	width: 48px;
+}
+
+.footer-hr{
+	border: 1px solid #FFFFFF;
+}
+
+.footer-link{
+	display: flex;
+	font-size: 14px;
+	line-height: 21px;
 }
